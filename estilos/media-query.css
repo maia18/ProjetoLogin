@@ -14,6 +14,7 @@ Telas Grandes: acima de 1201px
     }
     section#login {
         width: 80vw;
+        height: 30vh;
     }
     section#login > div#imagem {
         float: left;
@@ -25,6 +26,7 @@ Telas Grandes: acima de 1201px
         width: 60%;
         height: 100%;
     }
+
 }
 
 @media screen and (min-width: 1024px){
@@ -33,6 +35,7 @@ Telas Grandes: acima de 1201px
     }
     section#login {
         width: 1020px;
+        height: 45vh;
     }
     section#login > div#imagem {
         float: left;
@@ -44,5 +47,13 @@ Telas Grandes: acima de 1201px
         float: right;
         width: 50%;
         height: 100%;
+    }
+
+    section#login > div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    section#login > div#formulario > p {
+        font-size: 1.36em;
     }
 }
