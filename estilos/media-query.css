@@ -35,7 +35,7 @@ Telas Grandes: acima de 1201px
     }
     section#login {
         width: 1020px;
-        height: 45vh;
+        height: 450px;
     }
     section#login > div#imagem {
         float: left;
