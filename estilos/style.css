@@ -32,17 +32,21 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    
+
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     background: #49a09d url("../imagens/Aurora.jpg") left center no-repeat;
     background-size: cover;
+    display: block;
     height: 200px;
 }
 
